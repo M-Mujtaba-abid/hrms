@@ -389,6 +389,7 @@ const AddNewEmploye = () => {
       return;
     }
 
+    
     const payload = {
       employeeId: formData.employeeId || Date.now().toString(),
       name: formData.fullName,
